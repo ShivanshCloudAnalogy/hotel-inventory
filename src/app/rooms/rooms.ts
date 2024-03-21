@@ -3,3 +3,11 @@ export interface Rooms{
     availableRooms : number,
     bookedRooms : number
 }
+
+export type RoomList={
+    roomType : string,
+    amenities : string,
+    price : number,
+    checkinTime : Date;
+    checkoutTime : Date
+}
